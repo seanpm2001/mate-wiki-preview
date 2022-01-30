@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MATEwiki</title>
-    <link>https://mate-desktop.github.io/mate-wiki-preview/contributing/artwork-and-themes/</link>
+    <link>https://wiki.mate-desktop.dev.org/contributing/artwork-and-themes/</link>
     <description>Recent content on MATEwiki</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://mate-desktop.github.io/mate-wiki-preview/contributing/artwork-and-themes/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://wiki.mate-desktop.dev.org/contributing/artwork-and-themes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting Started</title>
-      <link>https://mate-desktop.github.io/mate-wiki-preview/contributing/artwork-and-themes/getting-started/</link>
+      <link>https://wiki.mate-desktop.dev.org/contributing/artwork-and-themes/getting-started/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mate-desktop.github.io/mate-wiki-preview/contributing/artwork-and-themes/getting-started/</guid>
+      <guid>https://wiki.mate-desktop.dev.org/contributing/artwork-and-themes/getting-started/</guid>
       <description>This page tells you how to get started with creating artwork and themes for the MATE Desktop Environment.
    Creating Wallpapers Creating Themes      Creating Wallpapers     Wallpapers should be relaxing to look at; some people use there computer for long periods of time. The wallpaper therefore should not distract them from whatever they are doing. It is always nice to have some MATE branded wallpapers.</description>
     </item>

@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MATE Desktop on MATEwiki</title>
-    <link>https://mate-desktop.github.io/mate-wiki-preview/mate-desktop/</link>
+    <link>https://wiki.mate-desktop.dev.org/mate-desktop/</link>
     <description>Recent content in MATE Desktop on MATEwiki</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://mate-desktop.github.io/mate-wiki-preview/mate-desktop/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://wiki.mate-desktop.dev.org/mate-desktop/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
