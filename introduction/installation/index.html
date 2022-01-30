@@ -44,7 +44,7 @@ Linux      Fedora MATE-Compiz Spin Ubuntu MATE Linux Mint - MATE Debian: In the 
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://wiki.mate-desktop.dev/introduction/installation/" /><meta property="article:section" content="introduction" />
 
-
+<meta property="article:modified_time" content="2022-01-30T14:33:19&#43;01:00" />
 
 
 <meta name="twitter:card" content="summary"/>
@@ -140,7 +140,7 @@ Linux      Fedora MATE-Compiz Spin Ubuntu MATE Linux Mint - MATE Debian: In the 
     "copyrightYear" : "0001",
     "dateCreated": "0001-01-01T00:00:00.00Z",
     "datePublished": "0001-01-01T00:00:00.00Z",
-    "dateModified": "0001-01-01T00:00:00.00Z",
+    "dateModified": "2022-01-30T14:33:19.00Z",
     "publisher":{
         "@type":"Organization",
         "name": "MATEwiki",
@@ -153,7 +153,7 @@ Linux      Fedora MATE-Compiz Spin Ubuntu MATE Linux Mint - MATE Debian: In the 
         }
     },
     "url" : "https:\/\/wiki.mate-desktop.dev\/introduction\/installation\/",
-    "wordCount" : "361",
+    "wordCount" : "375",
     "genre" : [ ]
 }
 </script>
@@ -228,6 +228,41 @@ Linux      Fedora MATE-Compiz Spin Ubuntu MATE Linux Mint - MATE Debian: In the 
         
 
         
+  <span class="gdoc-language">
+    <ul class="gdoc-language__selector" role="button" aria-pressed="false" tabindex="0">
+      <li>
+        
+          
+            <span class="flex align-center">
+              <svg class="icon gdoc_language"><use xlink:href="#gdoc_language"></use></svg>
+              <span>EN</span>
+            </span>
+          
+        
+          
+        
+
+
+        <ul class="gdoc-language__list">
+          
+            
+                <li>
+                  <a
+                    class="flex gdoc-language__entry"
+                    title="Page not translated: Japanese"
+                    href="/ja"
+                    hreflang="ja"
+                    lang="ja"
+                  >
+                    Japanese*
+                  </a>
+                </li>
+              
+        </ul>
+      </li>
+    </ul>
+  </span>
+
 
 
         
@@ -2841,7 +2876,9 @@ If you already have a Desktop Environment installed (like Gnome, KDE, &hellip;) 
 <p>If you do not want a display manager, you can add mate-session to <code>~/.xinitrc</code> file.</p>
 <pre><code>exec ck-launch-session mate-session
 </code></pre><p>Now can type <code>startx</code>.</p>
-<!-- raw HTML omitted -->
+<blockquote class="gdoc-hint info">
+  If you have authorization problems (e.g. when mounting disks), try adding <code>dbus-launch</code> after <code>ck-launch-session</code>.
+</blockquote>
 
     </div>
   

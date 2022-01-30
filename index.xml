@@ -13,8 +13,7 @@
       <guid>https://wiki.mate-desktop.dev/mate-desktop/applications/atril/</guid>
       <description>Source Code| Bug Tracker| DependenciesAtril is the official Document Viewer of the MATE Desktop Environment, it is a simple multi-page document viewer. It can display and print PostScript (PS), Encapsulated PostScript (EPS), DJVU, DVI, XPS and Portable Document Format (PDF) files.
 When supported by the document, it also allows searching for text, copying text to the clipboard, hypertext navigation, and table-of-contents bookmarks.
-   More ↕  SYNTAX
- atril [OPTIONS.</description>
+   More ↕  SYNTAX</description>
     </item>
     
     <item>
@@ -33,7 +32,8 @@ Caja also provides the desktop background and the icons it uses for launching li
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/caja-actions/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -45,7 +45,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/caja-extensions/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -58,8 +59,7 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/applications/engrampa/</guid>
       <description>Source Code| Bug Tracker| DependenciesEngrampa is the official archive manager for the MATE Desktop Environment, it is a graphical front-end to archiving utilities such as tar and zip. It is a fork of File Roller.
-Engrampa supports most common operations such as creating, modifying and extracting files from an archive. You can also view the contents of an archive and open files contained within the archive.
-   More ↕  SYNOPSIS</description>
+Engrampa supports most common operations such as creating, modifying and extracting files from an archive. You can also view the contents of an archive and open files contained within the archive.</description>
     </item>
     
     <item>
@@ -69,7 +69,7 @@ Engrampa supports most common operations such as creating, modifying and extract
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/applications/eom/</guid>
       <description>Source Code| Bug Tracker| Dependencies| API Documentationeom or the Eye of MATE is the official image viewer for the MATE Desktop Environment. It aims to be simplistic, lightweight, and easy to use. The Eye of MATE may also be used to perform basic tasks like image flipping and rotation.
-Eye of MATE features a flexible plugin system which can be used to dynamically add new advanced features to eom itself. eom uses the gdk-pixbuf library, it can handle large images, zoom, and scroll with low memory usage.</description>
+Eye of MATE features a flexible plugin system which can be used to dynamically add new advanced features to eom itself.</description>
     </item>
     
     <item>
@@ -121,7 +121,8 @@ Linux      Fedora MATE-Compiz Spin Ubuntu MATE Linux Mint - MATE Debian: In the 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/libraries/libmatekbd/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -133,7 +134,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/libraries/libmatemixer/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -145,7 +147,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/libraries/libmateweather/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -168,7 +171,7 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <guid>https://wiki.mate-desktop.dev/mate-desktop/applications/mate-calc/</guid>
       <description>Source Code| Bug Tracker| Dependencies| Helpmate-calc is the official calculator for the MATE Desktop Environment. It has been designed to be used with either the mouse or the keyboard. It is visually similar to a lot of hand-held calculators.    More ↕  SYNOPSIS
  mate-calc [OPTIONS...] [FILES...]  OPTIONS
- -s, --solve &amp;lt;equation&amp;gt; Solve the equation provided following this option. --version Output version information and exit. -h, -?</description>
+ -s, --solve &amp;lt;equation&amp;gt; Solve the equation provided following this option. --version Output version information and exit.</description>
     </item>
     
     <item>
@@ -180,8 +183,7 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <description>Source Code| Bug Tracker| Dependenciesmate-control-center is a graphical user interface to configure various aspects of MATE.
 When run without arguments, the shell displays the control center overview, which shows all available configuration panels. The overview allows one to open individual panels by clicking on them. It also has a search entry to find panels by searching keywords.
    More ↕  SYNOPSIS
- mate-control-center [OPTION...]  OPTIONS
- -?</description>
+ mate-control-center [OPTION.</description>
     </item>
     
     <item>
@@ -211,7 +213,8 @@ In addition, the mate-system-monitor provides an overall view of the resource us
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/mate-applets/</guid>
-      <description>Source Code| Bug Tracker| Dependenciesmate-applets contains applets for use with the MATE panel.
+      <description>   
+Source Code| Bug Tracker| Dependenciesmate-applets contains applets for use with the MATE panel.
 Build / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
@@ -224,7 +227,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/mate-desktop/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -245,7 +249,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/mate-media/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -257,7 +262,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/mate-menus/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -269,7 +275,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/mate-netbook/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -281,7 +288,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/mate-notification-daemon/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -303,7 +311,8 @@ By default, mate-panel typically creates a panel on the top of the screen with a
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/mate-polkit/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -315,7 +324,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/mate-screensaver/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -327,7 +337,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/mate-sensors-applet/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -339,7 +350,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/mate-session-manager/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -351,7 +363,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/mate-settings-daemon/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -363,7 +376,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/mate-utils/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -377,8 +391,7 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <guid>https://wiki.mate-desktop.dev/mate-desktop/applications/mozo/</guid>
       <description>Source Code| Bug Tracker| DependenciesMozo is a menu editor for MATE using the freedesktop.org menu specification. It is a fork of Alacarte.    More ↕  SYNOPSIS
  mozo    Build / Install     Simple build procedure:
-$ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
-$ ./autogen.sh --prefix=/an/other/path After building the package you may install it:</description>
+$ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:</description>
     </item>
     
     <item>
@@ -398,7 +411,8 @@ Pluma features a flexible plugin system which can be used to dynamically add new
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/pluma-plugins/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -410,7 +424,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/python-caja/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -433,7 +448,7 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       
       <guid>https://wiki.mate-desktop.dev/developers-corner/wayland-meson/</guid>
       <description>Status of Wayland and Meson support     Here we track some packages status of the current support for the Wayland protocol and the Meson build system.
-  Package Name Wayland Support Meson Support   atril ✅ finished 🔲 not started yet   caja 🔲 not started yet 🔲 not started yet   engrampa ✅ finished 🔲 not started yet   eom ✅ finished 🔲 not started yet   mate-calc ✅ finished ✅ finished   mate-control-center 🔲 not started yet 🔲 not started yet   mate-system-monitor ✅ finished 🔲 not started yet   mate-terminal ✅ finished ✅ finished   mozo ✅ finished ✅ finished   pluma ✅ finished 🔲 not started yet   </description>
+  Package Name Wayland Support Meson Support   atril :white_check_mark: finished :black_square_button: not started yet   caja :black_square_button: not started yet :black_square_button: not started yet   engrampa :white_check_mark: finished :black_square_button: not started yet   eom :white_check_mark: finished :black_square_button: not started yet   mate-calc :white_check_mark: finished :white_check_mark: finished   mate-control-center :black_square_button: not started yet :black_square_button: not started yet   mate-system-monitor :white_check_mark: finished :black_square_button: not started yet   mate-terminal :white_check_mark: finished :white_check_mark: finished   mozo :white_check_mark: finished :white_check_mark: finished   pluma :white_check_mark: finished :black_square_button: not started yet   </description>
     </item>
     
     <item>

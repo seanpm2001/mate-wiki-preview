@@ -11,7 +11,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/caja-actions/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -23,7 +24,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/caja-extensions/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -44,7 +46,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/mate-applets/</guid>
-      <description>Source Code| Bug Tracker| Dependenciesmate-applets contains applets for use with the MATE panel.
+      <description>   
+Source Code| Bug Tracker| Dependenciesmate-applets contains applets for use with the MATE panel.
 Build / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
@@ -57,7 +60,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/mate-desktop/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -78,7 +82,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/mate-media/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -90,7 +95,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/mate-menus/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -102,7 +108,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/mate-netbook/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -114,7 +121,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/mate-notification-daemon/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -136,7 +144,8 @@ By default, mate-panel typically creates a panel on the top of the screen with a
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/mate-polkit/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -148,7 +157,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/mate-screensaver/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -160,7 +170,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/mate-sensors-applet/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -172,7 +183,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/mate-session-manager/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -184,7 +196,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/mate-settings-daemon/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -196,7 +209,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/mate-utils/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -208,7 +222,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/pluma-plugins/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -220,7 +235,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/components/python-caja/</guid>
-      <description>Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+      <description>   
+Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>

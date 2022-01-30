@@ -42,7 +42,7 @@ Since the C Programming-Language was not created with Object Oriented Programmin
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://wiki.mate-desktop.dev/contributing/software-development/c-gobject-programming/" /><meta property="article:section" content="contributing" />
 
-
+<meta property="article:modified_time" content="2022-01-30T14:33:19&#43;01:00" />
 
 
 <meta name="twitter:card" content="summary"/>
@@ -137,7 +137,7 @@ Since the C Programming-Language was not created with Object Oriented Programmin
     "copyrightYear" : "0001",
     "dateCreated": "0001-01-01T00:00:00.00Z",
     "datePublished": "0001-01-01T00:00:00.00Z",
-    "dateModified": "0001-01-01T00:00:00.00Z",
+    "dateModified": "2022-01-30T14:33:19.00Z",
     "publisher":{
         "@type":"Organization",
         "name": "MATEwiki",
@@ -225,6 +225,41 @@ Since the C Programming-Language was not created with Object Oriented Programmin
         
 
         
+  <span class="gdoc-language">
+    <ul class="gdoc-language__selector" role="button" aria-pressed="false" tabindex="0">
+      <li>
+        
+          
+            <span class="flex align-center">
+              <svg class="icon gdoc_language"><use xlink:href="#gdoc_language"></use></svg>
+              <span>EN</span>
+            </span>
+          
+        
+          
+        
+
+
+        <ul class="gdoc-language__list">
+          
+            
+                <li>
+                  <a
+                    class="flex gdoc-language__entry"
+                    title="Page not translated: Japanese"
+                    href="/ja"
+                    hreflang="ja"
+                    lang="ja"
+                  >
+                    Japanese*
+                  </a>
+                </li>
+              
+        </ul>
+      </li>
+    </ul>
+  </span>
+
 
 
         
@@ -2728,8 +2763,8 @@ Since the C Programming-Language was not created with Object Oriented Programmin
     </h3>
 </div>
 <p>To create a simple non-derivable (final) object, two structs must be declared, the instance and the class. They are declared using a macro:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#8f5902;font-style:italic">/* in myobject.h */</span>
-<span style="color:#000">G_DECLARE_FINAL_TYPE</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">MyObject</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">my_object</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">MY</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">OBJECT</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">GObject</span><span style="color:#000;font-weight:bold">)</span>
+<div class="highlight"><pre class="chroma"><code class="language-c" data-lang="c"><span class="cm">/* in myobject.h */</span>
+<span class="n">G_DECLARE_FINAL_TYPE</span> <span class="p">(</span><span class="n">MyObject</span><span class="p">,</span> <span class="n">my_object</span><span class="p">,</span> <span class="n">MY</span><span class="p">,</span> <span class="n">OBJECT</span><span class="p">,</span> <span class="n">GObject</span><span class="p">)</span>
 </code></pre></div><p>This declares two structures, <code>MyObject</code> and <code>MyObjectClass</code>. <code>MyObject</code> must be defined in the C implementation, and <code>MyObjectClass</code> is already defined by the macro.</p>
 <div class="gdoc-page__anchorwrap">
     <h3 id="boiler-plate-code">
@@ -2740,8 +2775,8 @@ Since the C Programming-Language was not created with Object Oriented Programmin
     </h3>
 </div>
 <p>Since the GObject System is just a third-party library and therefore cannot make any changes to the C Language itself, creating a new object requires a lot of boiler-plate code. This is mostly handled by the macro shown above. However, the following is also required:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#8f5902;font-style:italic">/* in myobject.h */</span>
-<span style="color:#8f5902;font-style:italic">#define MY_TYPE_OBJECT my_object_get_type ()
+<div class="highlight"><pre class="chroma"><code class="language-c" data-lang="c"><span class="cm">/* in myobject.h */</span>
+<span class="cp">#define MY_TYPE_OBJECT my_object_get_type ()
 </span></code></pre></div><p>The macro defines several functions, namely <code>MY_OBJECT ()</code> and <code>MY_OBJECT_CLASS ()</code>, used for casting, <code>MY_IS_OBJECT ()</code> and <code>MY_IS_OBJECT_CLASS ()</code> for testing whether an object or class is of the correct type and <code>MY_OBJECT_GET_CLASS ()</code> for getting the class structure from an instance.</p>
 <div class="gdoc-page__anchorwrap">
     <h3 id="defining-the-object">
@@ -2752,16 +2787,16 @@ Since the C Programming-Language was not created with Object Oriented Programmin
     </h3>
 </div>
 <p>Before use, the newly created object must be defined, along with the instance structure.</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#8f5902;font-style:italic">/* in myobject.c */</span>
+<div class="highlight"><pre class="chroma"><code class="language-c" data-lang="c"><span class="cm">/* in myobject.c */</span>
 
-<span style="color:#204a87;font-weight:bold">struct</span> <span style="color:#000">_MyObject</span>
-<span style="color:#000;font-weight:bold">{</span>
-    <span style="color:#000">GObject</span> <span style="color:#000">parent_instance</span><span style="color:#000;font-weight:bold">;</span>
+<span class="k">struct</span> <span class="n">_MyObject</span>
+<span class="p">{</span>
+    <span class="n">GObject</span> <span class="n">parent_instance</span><span class="p">;</span>
 
-    <span style="color:#8f5902;font-style:italic">/* other members */</span>
-<span style="color:#000;font-weight:bold">};</span>
+    <span class="cm">/* other members */</span>
+<span class="p">};</span>
 
-<span style="color:#000">G_DEFINE_TYPE</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">MyObject</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">my_object</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">G_TYPE_OBJECT</span><span style="color:#000;font-weight:bold">)</span>
+<span class="n">G_DEFINE_TYPE</span> <span class="p">(</span><span class="n">MyObject</span><span class="p">,</span> <span class="n">my_object</span><span class="p">,</span> <span class="n">G_TYPE_OBJECT</span><span class="p">)</span>
 </code></pre></div><div class="gdoc-page__anchorwrap">
     <h3 id="static-functions">
         Static Functions
@@ -2771,18 +2806,18 @@ Since the C Programming-Language was not created with Object Oriented Programmin
     </h3>
 </div>
 <p>There are a few static functions that may or may not to be defined, depending on your object. For a minimal object these ones are compulsory:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#8f5902;font-style:italic">/* in myobject.c */</span>
-<span style="color:#204a87;font-weight:bold">static</span> <span style="color:#204a87;font-weight:bold">void</span>
-<span style="color:#000">my_object_class_init</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">MyObjectClass</span> <span style="color:#ce5c00;font-weight:bold">*</span><span style="color:#000">klass</span><span style="color:#000;font-weight:bold">)</span>
-<span style="color:#000;font-weight:bold">{</span>
-     <span style="color:#8f5902;font-style:italic">/* code */</span>
-<span style="color:#000;font-weight:bold">}</span>
+<div class="highlight"><pre class="chroma"><code class="language-c" data-lang="c"><span class="cm">/* in myobject.c */</span>
+<span class="k">static</span> <span class="kt">void</span>
+<span class="nf">my_object_class_init</span> <span class="p">(</span><span class="n">MyObjectClass</span> <span class="o">*</span><span class="n">klass</span><span class="p">)</span>
+<span class="p">{</span>
+     <span class="cm">/* code */</span>
+<span class="p">}</span>
 
-<span style="color:#204a87;font-weight:bold">static</span> <span style="color:#204a87;font-weight:bold">void</span>
-<span style="color:#000">my_object_init</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">MyObject</span> <span style="color:#ce5c00;font-weight:bold">*</span><span style="color:#000">self</span><span style="color:#000;font-weight:bold">)</span>
-<span style="color:#000;font-weight:bold">{</span>
-     <span style="color:#8f5902;font-style:italic">/* code */</span>
-<span style="color:#000;font-weight:bold">}</span>
+<span class="k">static</span> <span class="kt">void</span>
+<span class="nf">my_object_init</span> <span class="p">(</span><span class="n">MyObject</span> <span class="o">*</span><span class="n">self</span><span class="p">)</span>
+<span class="p">{</span>
+     <span class="cm">/* code */</span>
+<span class="p">}</span>
 </code></pre></div><div class="gdoc-page__anchorwrap">
     <h3 id="the-constructor">
         The Constructor
@@ -2792,14 +2827,14 @@ Since the C Programming-Language was not created with Object Oriented Programmin
     </h3>
 </div>
 <p>There is no internal way of allocating memory for an object in C. Therefore an explicit constructor must be declared for the new object.</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#8f5902;font-style:italic">/* in myobject.c */</span>
+<div class="highlight"><pre class="chroma"><code class="language-c" data-lang="c"><span class="cm">/* in myobject.c */</span>
 
-<span style="color:#000">GObject</span> <span style="color:#ce5c00;font-weight:bold">*</span>
-<span style="color:#000">my_object_new</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#204a87;font-weight:bold">void</span><span style="color:#000;font-weight:bold">)</span>
-<span style="color:#000;font-weight:bold">{</span>
-     <span style="color:#204a87;font-weight:bold">return</span> <span style="color:#000">g_object_new</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">MY_TYPE_OBJECT</span><span style="color:#000;font-weight:bold">,</span>
-                          <span style="color:#0000cf;font-weight:bold">0</span><span style="color:#000;font-weight:bold">);</span>
-<span style="color:#000;font-weight:bold">}</span>
+<span class="n">GObject</span> <span class="o">*</span>
+<span class="nf">my_object_new</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+<span class="p">{</span>
+     <span class="k">return</span> <span class="n">g_object_new</span> <span class="p">(</span><span class="n">MY_TYPE_OBJECT</span><span class="p">,</span>
+                          <span class="mi">0</span><span class="p">);</span>
+<span class="p">}</span>
 </code></pre></div><div class="gdoc-page__anchorwrap">
     <h3 id="object-usage">
         Object-Usage
@@ -2809,15 +2844,15 @@ Since the C Programming-Language was not created with Object Oriented Programmin
     </h3>
 </div>
 <p>Although creating the object using its own pointer-type is perfectly valid, it is recommended to use the pointer-type of the object at the top of the hierarchy i.e the furthest off base class. The newly created object may now be used like this:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#8f5902;font-style:italic">/* in main.c */</span>
+<div class="highlight"><pre class="chroma"><code class="language-c" data-lang="c"><span class="cm">/* in main.c */</span>
 
-<span style="color:#8f5902;font-style:italic">/* Note: GObject is at the top of the hierarchy. */</span>
+<span class="cm">/* Note: GObject is at the top of the hierarchy. */</span>
 
-<span style="color:#8f5902;font-style:italic">/* declaration and construction */</span>
-<span style="color:#000">GObject</span> <span style="color:#ce5c00;font-weight:bold">*</span><span style="color:#000">myobj</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">my_object_new</span> <span style="color:#000;font-weight:bold">();</span>
+<span class="cm">/* declaration and construction */</span>
+<span class="n">GObject</span> <span class="o">*</span><span class="n">myobj</span> <span class="o">=</span> <span class="n">my_object_new</span> <span class="p">();</span>
 
-<span style="color:#8f5902;font-style:italic">/* destruction */</span>
-<span style="color:#000">g_object_unref</span> <span style="color:#000;font-weight:bold">(</span><span style="color:#000">myobj</span><span style="color:#000;font-weight:bold">);</span>
+<span class="cm">/* destruction */</span>
+<span class="n">g_object_unref</span> <span class="p">(</span><span class="n">myobj</span><span class="p">);</span>
 </code></pre></div><div class="gdoc-page__anchorwrap">
     <h2 id="inheritance">
         Inheritance
@@ -2837,12 +2872,12 @@ Since the C Programming-Language was not created with Object Oriented Programmin
 <p>Inheritance is one of the most widely used and useful OO Concepts. It provides an efficient way to reuse existing code by wrapping it up into an object and then sub-classing it. The new classes are known as derived classes. Many object hieriarchies can be created using inheritance. Inheritance is also one of the most efficient ways of abstracting code.
 Implementation</p>
 <p>In the GObject System, inheritance can be achieved by sub-classing GObject. Since C provides no keyword or operator for inheritance, a derived object is usually made by declaring the base instance and base class as a member of the derived instance and derived class respectively. In C code:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#8f5902;font-style:italic">/* derived object instance */</span>
-<span style="color:#204a87;font-weight:bold">struct</span> <span style="color:#000">_DerivedObject</span>
-<span style="color:#000;font-weight:bold">{</span>
-     <span style="color:#8f5902;font-style:italic">/* the base instance is a member of the derived instance */</span>
-     <span style="color:#000">BaseObject</span> <span style="color:#000">parent_instance</span><span style="color:#000;font-weight:bold">;</span>
-<span style="color:#000;font-weight:bold">};</span>
+<div class="highlight"><pre class="chroma"><code class="language-c" data-lang="c"><span class="cm">/* derived object instance */</span>
+<span class="k">struct</span> <span class="n">_DerivedObject</span>
+<span class="p">{</span>
+     <span class="cm">/* the base instance is a member of the derived instance */</span>
+     <span class="n">BaseObject</span> <span class="n">parent_instance</span><span class="p">;</span>
+<span class="p">};</span>
 </code></pre></div><hr>
 <p>Source: <a href="https://en.wikibooks.org/wiki/C_Programming/GObject">https://en.wikibooks.org/wiki/C_Programming/GObject</a></p>
 
