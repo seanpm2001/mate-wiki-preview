@@ -12,7 +12,8 @@
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/libraries/libmatekbd/</guid>
       <description>   
-Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+Source Code | Bug Tracker | Dependencies
+Build / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -25,7 +26,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/libraries/libmatemixer/</guid>
       <description>   
-Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+Source Code | Bug Tracker | Dependencies
+Build / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>
@@ -38,7 +40,8 @@ $ ./autogen.sh --prefix=/an/other/path After building the package you may instal
       
       <guid>https://wiki.mate-desktop.dev/mate-desktop/libraries/libmateweather/</guid>
       <description>   
-Source Code| Bug Tracker| DependenciesBuild / Install     Simple build procedure:
+Source Code | Bug Tracker | Dependencies
+Build / Install     Simple build procedure:
 $ ./autogen.sh --prefix=/usr # Build configuration $ make # Build For installation to a separate prefix change the above ./autogen.sh command to:
 $ ./autogen.sh --prefix=/an/other/path After building the package you may install it:
 [ Become root if necessary ] $ make install # Installation </description>

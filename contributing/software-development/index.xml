@@ -11,9 +11,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.mate-desktop.dev/contributing/software-development/getting-started/</guid>
-      <description>We assume you to have basic coding knowledge. If you don&amp;rsquo;t, we recommend that you read the chapters Introduction, Beginning C and Intermediate C of the C Wikibookand make some exercises (or something equivalent).
+      <description>We assume you to have basic coding knowledge. If you don&amp;rsquo;t, we recommend that you read the chapters Introduction, Beginning C and Intermediate C of the C Wikibook and make some exercises (or something equivalent).
 The MATE Desktop is mostly written in C. Some projects are written in Python or C++.
-You should already have a text editor like Pluma, Gedit or Kate and a terminal application like MATE Terminalinstalled. Alternatively you could use a fully featured IDE such as VSCodium, Eclipseor Code::Blocks.</description>
+You should already have a text editor like Pluma, Gedit or Kate and a terminal application like MATE Terminal installed.</description>
     </item>
     
     <item>
