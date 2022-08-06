@@ -59,7 +59,7 @@ Eye of MATE features a flexible plugin system which can be used to dynamically a
       <description>Source Code | Bug Tracker | Dependencies | Help
 mate-calc is the official calculator for the MATE Desktop Environment. It has been designed to be used with either the mouse or the keyboard. It is visually similar to a lot of hand-held calculators.     More ↕  SYNOPSIS
  mate-calc [OPTIONS...] [FILES...]  OPTIONS
- -s, --solve &amp;lt;equation&amp;gt; Solve the equation provided following this option.</description>
+ -s, --solve  Solve the equation provided following this option.</description>
     </item>
     
     <item>
