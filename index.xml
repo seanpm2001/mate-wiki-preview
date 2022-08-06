@@ -106,7 +106,7 @@ You should already have a text editor like Pluma, Gedit or Kate and a terminal a
       
       <guid>https://wiki.mate-desktop.dev/contributing/translation/getting-started/</guid>
       <description>Initial Setup     We use Transifex for translating the MATE Desktop into several languages.
-Transifex is a proprietary, web-based translation platform; that is to say, it is a globalization management system (GMS). It targets technical projects with frequently updated content, such as software, documentation, and websites, and encourages the automation of the localization workflow by integrating with the tools used by developers. source  How to help translating:</description>
+ Transifex is a proprietary, web-based translation platform; that is to say, it is a globalization management system (GMS). It targets technical projects with frequently updated content, such as software, documentation, and websites, and encourages the automation of the localization workflow by integrating with the tools used by developers. source  How to help translating:</description>
     </item>
     
     <item>
@@ -181,7 +181,7 @@ Marco is a minimal X window manager that uses GTK+ for drawing window frames. It
       <description>Source Code | Bug Tracker | Dependencies | Help
 mate-calc is the official calculator for the MATE Desktop Environment. It has been designed to be used with either the mouse or the keyboard. It is visually similar to a lot of hand-held calculators.     More ↕  SYNOPSIS
  mate-calc [OPTIONS...] [FILES...]  OPTIONS
- -s, --solve &amp;lt;equation&amp;gt; Solve the equation provided following this option.</description>
+ -s, --solve  Solve the equation provided following this option.</description>
     </item>
     
     <item>

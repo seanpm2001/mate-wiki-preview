@@ -12,7 +12,7 @@
       
       <guid>https://wiki.mate-desktop.dev/contributing/translation/getting-started/</guid>
       <description>Initial Setup     We use Transifex for translating the MATE Desktop into several languages.
-Transifex is a proprietary, web-based translation platform; that is to say, it is a globalization management system (GMS). It targets technical projects with frequently updated content, such as software, documentation, and websites, and encourages the automation of the localization workflow by integrating with the tools used by developers. source  How to help translating:</description>
+ Transifex is a proprietary, web-based translation platform; that is to say, it is a globalization management system (GMS). It targets technical projects with frequently updated content, such as software, documentation, and websites, and encourages the automation of the localization workflow by integrating with the tools used by developers. source  How to help translating:</description>
     </item>
     
   </channel>
