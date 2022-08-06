@@ -2,6 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://wiki.mate-desktop.dev/ja/introduction/</loc>
+    <lastmod>2022-05-27T23:51:38+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wiki.mate-desktop.dev/introduction/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://wiki.mate-desktop.dev/ja/introduction/"
+                />
+  </url><url>
+    <loc>https://wiki.mate-desktop.dev/ja/introduction/installation/</loc>
+    <lastmod>2022-05-27T23:51:38+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wiki.mate-desktop.dev/introduction/installation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://wiki.mate-desktop.dev/ja/introduction/installation/"
+                />
+  </url><url>
+    <loc>https://wiki.mate-desktop.dev/ja/introduction/contributing/</loc>
+    <lastmod>2022-05-27T23:51:38+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wiki.mate-desktop.dev/introduction/contributing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://wiki.mate-desktop.dev/ja/introduction/contributing/"
+                />
+  </url><url>
     <loc>https://wiki.mate-desktop.dev/ja/en/</loc>
     <xhtml:link
                 rel="alternate"

@@ -30,10 +30,30 @@
     <lastmod>2022-01-30T14:33:19+01:00</lastmod>
   </url><url>
     <loc>https://wiki.mate-desktop.dev/introduction/installation/</loc>
-    <lastmod>2022-08-06T12:12:06+02:00</lastmod>
+    <lastmod>2022-02-13T05:41:34+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://wiki.mate-desktop.dev/ja/introduction/installation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wiki.mate-desktop.dev/introduction/installation/"
+                />
   </url><url>
     <loc>https://wiki.mate-desktop.dev/introduction/</loc>
     <lastmod>2022-01-30T14:33:19+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://wiki.mate-desktop.dev/ja/introduction/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wiki.mate-desktop.dev/introduction/"
+                />
   </url><url>
     <loc>https://wiki.mate-desktop.dev/mate-desktop/libraries/libmatekbd/</loc>
     <lastmod>2022-01-30T14:33:19+01:00</lastmod>
@@ -121,6 +141,16 @@
   </url><url>
     <loc>https://wiki.mate-desktop.dev/introduction/contributing/</loc>
     <lastmod>2022-01-30T14:33:19+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://wiki.mate-desktop.dev/ja/introduction/contributing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wiki.mate-desktop.dev/introduction/contributing/"
+                />
   </url><url>
     <loc>https://wiki.mate-desktop.dev/contributing/software-development/first-contribution/</loc>
     <lastmod>2022-01-30T14:33:19+01:00</lastmod>
