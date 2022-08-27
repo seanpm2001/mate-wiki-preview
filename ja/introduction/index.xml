@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>MATE Wiki の公式文書へようこそ on MATEwiki</title>
-    <link>https://wiki.mate-desktop.dev/ja/</link>
-    <description>Recent content in MATE Wiki の公式文書へようこそ on MATEwiki</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://wiki.mate-desktop.dev/ja/index.xml" rel="self" type="application/rss+xml" />
+    <title>はじめに on MATEwiki</title>
+    <link>https://wiki.mate-desktop.dev/ja/introduction/</link>
+    <description>Recent content in はじめに on MATEwiki</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://wiki.mate-desktop.dev/ja/introduction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>インストール</title>
       <link>https://wiki.mate-desktop.dev/ja/introduction/installation/</link>
